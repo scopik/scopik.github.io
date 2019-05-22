@@ -29,8 +29,11 @@
             <a-asset-item id="floorplan-obj" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/floorplan/floorplan.obj"></a-asset-item>
             <a-asset-item id="floorplan-mtl" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/floorplan/floorplan.mtl"></a-asset-item>
 
-            <a-asset-item id="torus-obj" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/torus/torus.obj"></a-asset-item>
+            <a-asset-item id="torus-obj" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/torus/torus.glb"></a-asset-item>
             <a-asset-item id="torus-mtl" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/torus/torus.mtl"></a-asset-item>
+
+            <a-asset-item id="eyeglasses-obj" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/eyeglasses/eyeglasses.glb"></a-asset-item>
+            <a-asset-item id="eyeglasses-mtl" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/eyeglasses/eyeglasses.mtl"></a-asset-item>
 
 
           </a-assets>
@@ -58,6 +61,9 @@
               <a-entity obj-model="obj: #torus-obj; mtl: #torus-mtl"></a-entity>
           </a-marker>
 
+          <a-marker id="animated-marker7" type='barcode' value='63'>
+            <a-entity obj-model="obj: #eyeglasses-obj; mtl: #eyeglasses-mtl"></a-entity>
+          </a-marker>
 
           <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
           <a-entity camera></a-entity>
